@@ -1,16 +1,16 @@
 import React, { useContext } from "react";
 import { BrowserRouter as Router, Routes, Route,Outlet,Navigate } from "react-router-dom";
-import SignUp from "./pages/Auth/SignUp";
-import Login from "./pages/Auth/Login";
-import DashBoard from "./pages/Admin/Dashboard";
-import ManageTasks from "./pages/Admin/ManageTasks";
-import ManageUsers from "./pages/Admin/ManageUsers";
-import CreateTask from "./pages/Admin/CreateTask"
+import SignUp from "./pages/auth/SignUp";
+import Login from "./pages/auth/Login";
+import DashBoard from "./pages/admin/Dashboard";
+import ManageTasks from "./pages/admin/ManageTasks";
+import ManageUsers from "./pages/admin/ManageUsers";
+import CreateTask from "./pages/admin/CreateTask"
 
-import UserDashBoard from "./pages/User/UserDashboard";
-import MyTasks from "./pages/User/MyTasks";
+import UserDashBoard from "./pages/user/UserDashboard";
+import MyTasks from "./pages/user/MyTasks";
 import PrivateRoute from "./routes/PrivateRoute";
-import ViewTaskDeatils from "./pages/User/ViewTaskDeatils";
+import ViewTaskDeatils from "./pages/user/ViewTaskDeatils";
 import  {UserContext,UserProvider } from "./context/userContext";
 import { Toaster } from "react-hot-toast";
 const App = () => {
