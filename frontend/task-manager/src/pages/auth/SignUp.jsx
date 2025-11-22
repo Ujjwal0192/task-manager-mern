@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import AuthLayout from "../../components/layout/AuthLayout";
 import { validateEmail, validatePassword } from "../../utils/helper";
-import ProfilePhotoSelecter from "../../components/Inputs/ProfilePhotoSelecter";
-import Input from "../../components/Inputs/Input";
+import ProfilePhotoSelecter from "../../components/inputs/ProfilePhotoSelecter";
+import Input from "../../components/inputs/Input";
 import { Link } from "react-router-dom";
 import axiosInstance from "../../utils/axiosinstance";
 import { API_PATHS } from "../../utils/apiPaths";
@@ -170,3 +170,4 @@ const SignUp = () => {
 };
 
 export default SignUp;
+
