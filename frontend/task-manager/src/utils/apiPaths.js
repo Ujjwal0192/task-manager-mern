@@ -1,4 +1,4 @@
-export const BASE_URL = "https://task-manager-mern-3gdi.onrender.com";
+export const BASE_URL= "https://task-manager-mern-3gdi.onrender.com";
 
 //utils/api/apiPaths.js
 export const API_PATHS={
@@ -39,3 +39,4 @@ IMAGE:{
 
 
 }
+
