@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import axiosInstance from "../../utils/axiosinstance";
 import { API_PATHS } from "../../utils/apiPaths";
 import { UserContext } from "../../context/userContext";
-import uploadImage from "../../utils/uploadimage";
+import uploadImage from "../../utils/uploadImage";
 
 const SignUp = () => {
   const [profilePic, setProfilePic] = React.useState(null);
@@ -170,3 +170,4 @@ const SignUp = () => {
 };
 
 export default SignUp;
+
