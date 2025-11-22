@@ -13,7 +13,7 @@ import {
   LuEye,
 } from "react-icons/lu";
 import toast from "react-hot-toast";
-import SelectDropdown from "../../components/Inputs/SelectDropdown";
+import SelectDropdown from "../../components/inputs/SelectDropdown";
 import moment from "moment";
 
 const ROLE_FILTER_OPTIONS = [
@@ -616,3 +616,4 @@ const ManageUsers = () => {
 };
 
 export default ManageUsers;
+
