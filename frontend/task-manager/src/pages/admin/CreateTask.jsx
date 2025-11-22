@@ -12,9 +12,9 @@ import {
   LuCalendarDays,
   LuListChecks,
 } from "react-icons/lu";
-import SelectDropdownAdvanced from "../../components/Inputs/SelectDropdownAdvanced ";
-import SelectDropdown from "../../components/Inputs/SelectDropdown";
-import AttachmentsInput from "../../components/Inputs/AttachmentInput";
+import SelectDropdownAdvanced from "../../components/inputs/SelectDropdownAdvanced ";
+import SelectDropdown from "../../components/inputs/SelectDropdown";
+import AttachmentsInput from "../../components/inputs/AttachmentInput";
 
 const CreateTasks = () => {
   const location = useLocation();
@@ -669,3 +669,4 @@ const CreateTasks = () => {
 };
 
 export default CreateTasks;
+
