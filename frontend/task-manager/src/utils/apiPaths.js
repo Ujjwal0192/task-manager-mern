@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:8000";
+export const BASE_URL = "https://task-manager-mern-3gdi.onrender.com";
 
 //utils/api/apiPaths.js
 export const API_PATHS={
@@ -36,5 +36,6 @@ REPORTS:{
 IMAGE:{
     UPLOAD_IMAGE:"api/auth/upload-image",
 }
+
 
 }
