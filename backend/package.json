@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
-    "cloudinary": "^2.8.0",
+    "cloudinary": "^1.41.3",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "exceljs": "^4.4.0",
