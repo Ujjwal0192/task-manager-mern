@@ -12,7 +12,7 @@ import {
   LuChevronRight,
 } from "react-icons/lu";
 import { useNavigate } from "react-router-dom";
-import SelectDropdown from "../../components/Inputs/SelectDropdown";
+import SelectDropdown from "../../components/inputs/SelectDropdown";
 
 const STATUS_OPTIONS = [
   { label: "All", value: "all" },
@@ -323,3 +323,4 @@ const UserSummaryCard = ({
 );
 
 export default MyTasks;
+
