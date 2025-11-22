@@ -13,7 +13,7 @@ import {
   LuPencilLine,
   LuFilter,
 } from "react-icons/lu";
-import SelectDropdown from "../../components/Inputs/SelectDropdown";
+import SelectDropdown from "../../components/inputs/SelectDropdown";
 
 const STATUS_OPTIONS = [
   { label: "All", value: "all" },
@@ -568,3 +568,4 @@ const SummaryCard = ({
     </button>
   );
 };
+
